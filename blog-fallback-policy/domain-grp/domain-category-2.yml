@@ -1,0 +1,18 @@
+version: "3.0" 
+intents: 
+  - faq-category-2
+responses:
+  utter_faq-category-2/information-regarding-sowing-time-of-wheat: 
+  - text: TIME OF SOWING IS FROM THE 4TH WEEK OF OCTOBER TO 4TH WEEK OF NOVEMBER.
+  utter_faq-category-2/sowing-time-for-early-sowing-varieties: 
+  - text: LAST WEEK OF OCTOBER TO LAST WEEK OF NOVEMBER.
+  utter_faq-category-2/late-varieties-of-wheat: 
+  - text: LATE SOWING VARIETES OF WHEAT ARE PBW 509,PBW 590,PBW 373
+  utter_faq-category-2/information-regarding-suitable-varieties-of-wheat--its-seed-rate: 
+  - text: SUITABLE VARIETIES OF WHEAT IS -PBW-550,HD-2967 & HD-2851 & ITS SEED RATE-40KG.
+  utter_faq-category-2/information-about-suitable-varieties-for-running-season: 
+  - text: SUITABLE VARIETIES FOR RUNNING SEASON IS - PBW-550,HD-2967 & HD-2851.
+  utter_faq-category-2/sowing-time-of-wheat-after-nov: 
+  - text: 4TH WEEK OF NOVEMBER TO 4TH WEEK OF DECEMBER.
+  utter_faq-category-2/sowing-time-of-late-varieties-of-wheat-in-sandy-soils: 
+  - text: After 15 November

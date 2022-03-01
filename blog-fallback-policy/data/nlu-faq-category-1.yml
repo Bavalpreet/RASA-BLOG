@@ -1,0 +1,361 @@
+version: "3.0"
+# weed control
+nlu:
+# control of weeds from vacant field
+- intent: faq-category-1/information-regarding-the-control-of-weeds-from-the-vacant-field-before-sowing-of-wheat
+  examples: |
+    - information regarding the control of weeds from the vacant field before sowing of wheat ?
+    - control of weeds from the vacant field before sowing of wheat ?
+    - How to control the weeds from the vacant field before sowing of wheat ?
+    - how we get rid of weeds from the vacant field before sowing of wheat
+    - Before sowing of wheat, is there any way to get rid of weeds from vacant field ?
+    - What is the best control for weeds from a vacant field before sowing wheat
+    - How do I control weeds from the vacant field before sowing wheat
+    - What is the correct way to control weeds from a vacant field before sowing wheat?
+
+# pre-emergence stage weed control
+- intent: faq-category-1/information-regarding-control-of-weeds-in-pre-emergence-stage-in-wheat
+  examples: |
+    - information regarding how to control weeds at sowing time (pre-emergence) in wheat?
+    - how to control weeds at sowing time (pre-emergence) in wheat?
+    - can you please tell me how to control weeds at pre-emergence stage in wheat?
+    - At pre-emergence stage, how can we control the weeds in wheats
+    - how we get rid of weeds in wheat at pre-emergence stage
+    - information regarding for the pre emergence control of weeds in wheat crop
+    - information regarding weed control in wheat pre emergence
+    - pre emergence of wheat weed control method
+  
+
+# herbicides used for pre-emergence
+# - intent: faq-category-1/information-regarding-the-pre-emergence-herbicides-used-in-the-wheat
+#   examples: |
+#     - information regarding the pre-emergence herbicides used in the wheat?
+#     - information of the pre-emergence herbicides used in the wheat?
+#     - pre-emergence herbicides used in the wheat ?
+#     - What is the information about pre-emergence herbicides used in the wheat?
+#     - information regarding the pre-emergence herbicides used in the wheat crop sown by happy seeder?
+#     - What are some pre-emergence herbicides used in wheat
+#     - How do pre-emergence herbicides be used in wheat?
+#     - How can I get information regarding the pre-emergence herbicide used in wheat?
+#     - What is the use of pre-emergence herbicides in wheat?
+
+
+# grassy leaf weeds after first irrigation
+- intent: faq-category-1/information-regarding-the-control-of-grassy-leaf-weeds-in-wheat-after-first-irrigation
+  examples: |
+    - information regarding the control of grassy leaf weeds in wheat after first irrigation ?
+    - control of grassy leaf weeds in wheat after first irrigation ?
+    - What is the procedure for controlling grassy leaf weeds in wheat after first irrigation?
+    - How do I control grassy leaf weeds after first irrigation in wheat?
+    - What are the best methods to control grassy leaf weeds in wheat after first irrigation?
+
+# grassy leaf weeds before first irrigation
+- intent: faq-category-1/information-regarding-the-control-of-grassy-leaf-weeds-in-wheat-before-first-irrigation
+  examples: |
+    - information regarding the control of grassy leaf weeds in wheat before first irrigation?
+    - control of grassy leaf weeds in wheat before first irrigation?
+    - how to control of grassy leaf weeds in wheat before first irrigation?
+    - Before first irrigation, how we control of grassy leaf weeds in wheat ?
+    - Before first irrigation, how to get rid of grassy leaf weeds
+    - Is it appropriate to control grassy leaf weeds in wheat before first irrigation? 
+    - What are the best ways to control grassy leaf weed in wheat before first irrigation?
+    - Is it possible to control grassy leaf weeds in wheat before first irrigation?
+
+# broad leaf
+- intent: faq-category-1/how-to-control-of-broad-leaf-weed-in-wheat-crop
+  examples: |
+    - broad leaf weed control of wheat?
+    - how to control of broad leaf weed in wheat crop?
+    - information regarding control of broad leaf weeds in wheat
+    - information regarding the control of broad leaf weeds in wheat ?
+    - control of broad leaf in wheat crop ?
+    - information regarding control of broad leaf weeds (bathu) in wheat ?
+    - control of broad leaf weeds in wheat
+    - control of broad leaf
+    - What are the best ways to control broad leaf weed in wheat?
+    - What is the possible way to control the broad leaf weed in wheat?
+    - What are some strategies to control broad leaf weed in wheat?
+
+# broad leaf weed control before first irrigation
+# - intent: faq-category-1/information-regarding-the-control-of-broad-leaf-weeds-in-wheat-before-first-irrigation
+#   examples: |
+#     - information regarding the control of broad leaf weeds in wheat before first irrigation?
+#     - how we control of broad leaf weeds in wheat before first irrigation?
+#     - information regarding the control of grassy leaf weeds in wheat before first irrigation?
+#     - control of broad leaf weeds in wheat before first irrigation?
+#     - how we get rid of broad leaf weeds in wheat before first irrigation?
+#     - before first irrigation, how we get rid of broad leaf weed in wheat
+#     - How should I control weeds with broad leaf in wheat before first irrigation?
+#     - remove broad leaf weeds in wheat before first irrigation
+
+# phalaris minor or gulli danda
+- intent: faq-category-1/how-to-control-phalaris-minor-in-wheat-crop
+  examples: |
+    - information regarding how to control the phalaris minor in the wheat crop ?
+    - information regarding control of gulli danda in wheat crop ?
+    - information regarding control of phalaris minor(gullidanda or sitti) in wheat crop ?
+    - how to control of phalaris minor weed in wheat ?
+    - information regarding control of broad leaf weeds and phalaris minor in wheat crop ?
+    - information regarding for the control of gullidanda (phalaris minor) in wheat crop?
+    - control of phalaris minor?        
+    - phalaris minor in wheat?
+    - How can I control the phalaris minor in the wheat crop?
+    - What is the best way to control the phalaris minor plant in wheat crops 
+
+# control of herbs
+- intent: faq-category-1/information-regarding-for-the-control-of-herbs-in-wheat-crop
+  examples: |
+    - information regarding for the control of herbs in wheat crop?
+    - how to control the herbs in wheat crop?
+    - control of herbs in wheat crop?
+    - how we get rid of herbs in wheat?
+    - what we can do to control the herbs in wheat crop
+    - What should be control for herb in wheat crop 
+    - How should the herb control of wheat crop be done?
+
+
+# narrow leaf weeds
+- intent: faq-category-1/information-regarding-control-of-narrow-leaf-weeds
+  examples: |
+    - tell me the way to control the narrow leaf weeds?
+    - how to control the narrow leaf weeds?
+    - control of narrow leaf weeds?
+    - how we get rid of narrow leaf weeds in wheat?
+    - information regarding control of narrow leaf weeds in wheat?
+    - How can I control leaf weeds that are narrow?
+    - What is the best way to control narroe leaf weeds?
+
+# info regarding nozzle used in herbicide
+- intent: faq-category-1/information-regarding-nozzle-used-in-herbicide-in-wheat-crop
+  examples: |
+    - information regarding nozzle used in herbicide in wheat crop ?
+    - how nozzle used in herbicides
+    - uses of nozzle used in herbicides for wheat
+    - tell me the info about nozzle used in herbicides
+    - can you please tell me more about nozzles used in herbicides for wheat crops?
+    - What is nozzle used in herbicide in wheat crop 
+    - What is the nozzle used to apply herbicide in wheat crop
+    - Is there any herbicide nozzle used in wheat crops?
+    - nozzle used for herbicide 
+
+
+
+# control of weed in non cropped area
+- intent: faq-category-1/information-regarding-control-of-weed-in-non-cropped-area
+  examples: |
+    - how we can control the weeds in non-cropped area
+    - control of weeds in non cropped area ?
+    - information regarding control of weed in non-cropped area ?
+    - how do we get rid of weed in non cropped area ?
+    - tell me the way to control the weeds in non-cropped area ?
+    - How can i control weeds in the non-cultivated area?
+    - Is there any way to control weeds in non-cropped area?
+    - Is there any herbicide to control the weeds in non-cropped area?
+    - What are some control measures taken to control the weeds in non-cropped area?
+
+# post emergence
+- intent: faq-category-1/information-regarding-post-emergence-weed-control-in-wheat
+  examples: |
+    - information regarding post emergence weed control in wheat
+    - information regarding for the post emergence control of weeds
+    - how to handle weed post emergence
+    - what to do in order to handle post weed emergence
+    - How do I control weeds in wheat after the first emergence?
+    - Post emergence weed control in wheat?
+    - Is there post emergence weed control in wheat?
+
+
+# post emergence weed control before 1st irrigation
+- intent: faq-category-1/information-regarding-control-of-weeds-in-post-emergence-before-1st-irrigation-stage-in-wheat
+  examples: |
+    - information regarding control of weeds in post- emergence (before 1st irrigation) stage in wheat ?
+    - control of weeds in post- emergence (before 1st irrigation) stage in wheat ?
+    - how we get rid of weeds in post- emergence (before 1st irrigation) stage in wheat ?
+    - tell me the control of weeds in post- emergence (before 1st irrigation) stage in wheat ?
+    - before 1st irrigation,how we get rid of weeds in post- emergence  stage in wheat  ?
+
+# post emergence weed control after 1st irrigation
+- intent: faq-category-1/information-regarding-control-of-weeds-in-post-emergence-after-1st-irrigation-stage-in-wheat
+  examples: |
+    - information regarding control of weeds in post- emergence (after 1st irrigation) stage in wheat ?
+    - control of weeds in post- emergence (after 1st irrigation) stage in wheat ?  
+    - how we get control of weeds in post- emergence (after 1st irrigation) stage in wheat ?  
+    - control of weeds in wheat after first irrigation?
+    - after first irrigation,how we get rid of weeds in wheat  ?
+
+# control of wild oat
+- intent: faq-category-1/how-to-control-wild-oat-in-wheat-crop
+  examples: |
+    - how to control wild oat in wheat crop?
+    - information regarding how to control wild oats in wheat?
+    - how to control of jangli jai weeds ?
+    - information regarding how to control jangli jai weed in wheat?
+    - control of jangli jai in wheat?
+    - How do I control wild oats in wheat crop?
+    - How do we control wild oats and wheat follicles?
+    - Is it possible to control wild oats in wheat crop?
+
+
+# mixed or mix weed control
+- intent: faq-category-1/information-regarding-how-to-control-mixed-weeds-in-wheat
+  examples: |
+    - information regarding how to control mixed weeds in wheat?
+    - how to control the mixed  weeds in wheat ?
+    - information of mixed weeds in wheat crops ?
+    - how we get rid of mix weed  in wheat crop?
+    - control mix weed in wheat ?
+
+# growth regulator tallering stage
+- intent: faq-category-1/information-regarding-growth-regulator-used-in-wheat-crop-at-time-of-tellering-stage
+  examples: |
+    - information regarding growth regulator used in wheat crop at time of tellering stage?
+    - At time of tellering stage, tell me the information regarding growth regulator used in wheat crop ?
+    - can you please tell me the info related to growth regulator used in wheat crop at time of tillering stage?
+    - At tellering stage, i want info about growth regulator in wheat crop
+    - at time of tellering stage information regarding growth regulator used in wheat crop
+    - Growth regulator used in wheat at time of tellering stage?
+
+# kandiali palak
+- intent: faq-category-1/kandiali-palak-in-wheat
+  examples: |
+    - information regarding how to control kandiali palak in wheat?
+    - how to control the kandiali palak weed in wheat ?
+    - information of kandiali palak in wheat crops ?
+    - how we get rid of kandiali palak  in wheat crop?
+    - control kandiali palak in wheat ?
+    - how do we suppose to get rid of kandiali palak from our crop 
+    - what steps can be taken to get rid from the kandiali palak in wheat 
+    - tell me how to control kandiali palak weed from wheat
+    - how we can stop kandiali palak in wheat
+    - How does kandiali palak affect wheat?
+    - What is the treatment for kandiali palak in wheat?
+    - How can I control kandiali palak in wheat?
+
+# medicago denticulata
+- intent: faq-category-1/how-to-control-medicago-denticulata-in-wheat-crop
+  examples: |
+    - how to control medicago denticulata in wheat crop?
+    - information regarding how to control medicago denticulata in wheat?
+    - how to control the medicago denticulata weed in wheat ?
+    - information of medicago denticulata in wheat crops ?
+    - control of medicago denticulata in wheat ?
+    - Can I control the bacteria medicago denticulata in wheat crop?
+    - Is there any effective way to control medicago denticulata in wheat?
+    - Can I control the bacteria medicago denticulata in wheat crop?
+
+# topik -> used to control wild oats and annual grass weeds
+- intent: faq-category-1/information-regaridng-dose-of-topik-in-an-acre
+  examples: |
+    - information regaridng dose of topik in an acre?
+    - how much topik we should spray in wheat ?
+    - tell me the quantity of topik to spray in wheat
+    - how much dose of topik should i spray in wheat
+    - how much quantity should i spray in wheat crop
+
+# nematode affected plant
+- intent: faq-category-1/information-regarding-control-of-nematodes-affected-plant-in-wheat
+  examples: |
+    - information regarding control of nematodes affected plant in wheat?
+    - control of nematodes affected plant in wheat
+    - how do we get rid of nematodes in wheats ?
+    - information regarding how we get rid of nematodes affected plants in wheat crop ?
+    - tell me the info regarding the nematodes affected plants ?
+    - How do I control nematodes in wheat?
+    - How do I control nematodes caused by wheat plant diseases?
+    - How should nematodes be controlled in wheat?
+    - What is the best management method for nematodes in wheat?
+    - How can nematodes affect wheat?
+
+# sagun-21-11 -> It is a post-emergence herbicide for the effective control of grasses and broad leaf weeds in wheat crop. Shagun 21-11
+- intent: faq-category-1/information-regarding-the-salt-of-sagun-21-11
+  examples: |
+    - information regarding the salt of sagun 21-11?
+    - how much we use salt of Shagun 21-11 in wheat crops ?
+    - what is maximum quantity of salt of Shagun 21-11 for wheat
+    - how much salt of Shagun 21-11 should i used for wheat
+    - how much quantity of salt of sagun 21-11 is used for wheat
+    - what dosage of salt of Shagun 21-11 should be used
+
+# bathu in wheat
+- intent: faq-category-1/information-regarding-to-control-of-bathu-in-the-wheat-crop
+  examples: |
+    - information regarding  control of button booti,bathu ?
+    - control of  bathu?
+    - information regarding control of bathu in wheat?
+    - control of bathu in the wheat crop ?
+    - how to control bathu in wheat crop?
+    - control bathu in wheat crop ?
+    - information regarding for the control of weeds (bathu) in wheat crops ?
+    - information regarding to control of chenopodium album ?
+    - How do you control the button booti/bathu?
+    - What is the control of button booti,bathu?
+
+# Glyphosate 41% SL ) is a non-selective systemic herbicide of Organophosphorus (Glycine and phosphonales) group, 
+# which inhibits the EPSP synthesis in weed plants
+- intent: faq-category-1/information-regarding-glyphosate-41%SL
+  examples: |
+    - information regarding glyphosate 41%sl?
+    - tell me the quantity of glyphosate 41%sl for wheat crop ?
+    - how much glyphosate 41%sl we spray in wheat ?
+    - what is the max quantity of glyphosate 41%sl for wheat crop ?
+    - can you please tell me about glyphosate 41%sl for spray the wheat crop ?
+
+# time gap after fertilizer spray
+# - intent: faq-category-1/information-regarding-time-gap-of-fertilizer-application-after-spray-of-weedicide
+#   examples: |
+#     - information regarding time gap of fertilizer application after spray of weedicide ?
+#     - what is the time gap of fertilizer application after spray of weedicide ?
+#     - tell me the time gap of fertilizer application after spray of weedicide
+#     - could you please tell m ethe information regardig time gap of fertilizer application after spray of weedicide
+#     - after spray of weedicide tell me the time gap of fertilizer
+#     - Is there a time gap between fertilizer application and weedicide spray? 
+#     - What is the time gap for fertilizer application after weedicide spray?
+#     - How long is the time gap between fertilizer application and spray of weedicide?
+
+# trigonella polycerata
+- intent: faq-category-1/how-to-control-trigoneela-polycerata-in-wheat-crop
+  examples: |
+    - how to control trigonella polycerata in wheat crop?
+    - how we get rid of trigonella polycerata 
+    - information regarding the control of trigonella polycerata in wheat 
+    - control of trigoneela polycerata in wheat?
+    - can you please tell about the control of trigoneela polycerata ?
+    - How do you control trigonella polycerata in wheat crop?
+    - What are the best strategies to control trigonella polycerata?
+    - 
+
+# melilotus indica
+- intent: faq-category-1/how-to-control-melilotus-indica-in-wheat-crop
+  examples: |
+    - how to control melilotus indica in wheat crop?
+    - How can I control melilotus indica in a wheat crop? 
+    - How can I control the melilotus plant in wheat crop? 
+    - control the growth of melilotus indica in the wheat crop?
+    - can you please tell about the control of melilotus indica ?
+    - control melilotus indica in wheat?
+
+# irrigate after herbicide spray
+- intent: faq-category-1/information-regarding-irrigate-the-field-after-herbicide-spray
+  examples: |
+    - information regarding irrigate the field after herbicide spray?
+    - After herbicide spray, can you tell me the info about irrigating field
+    - information regarding herbicide spray on wheat after 60days?
+    - information regarding the gap between the herbicide spray and the irrigation ?
+    - can you tell me the gap between irrigatio and herbicide spray in field
+    - How can we irrigate the field after herbicide spray?
+    - Can you irrigate the field after herbicide spray?
+    - How should I irrigate my field after herbicide spray?
+    - 
+
+# malva neglecta control
+- intent: faq-category-1/how-to-control-malva-neglecta-in-wheat-crop
+  examples: |
+    - how to control malva neglecta in wheat crop?
+    - how do we get rid of malva neglecta in wheat crop ?
+    - control of malva neglecta in wheat crop ?
+    - information regarding control of malva neglecta ?
+    - tell me about control of malva neglecta weed in wheat ?
+    - How can we control malva neglecta in wheat crop? 
+    - Can malva neglecta be controlled in wheat crop?
+    - What are the ways to control malva neglecta in wheat crop?
+  

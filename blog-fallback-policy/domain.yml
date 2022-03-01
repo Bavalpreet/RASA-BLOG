@@ -1,0 +1,141 @@
+version: '3.0'
+intents:
+- faq-category-2
+- faq-category-1
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+responses:
+  utter_faq-category-2/information-regarding-sowing-time-of-wheat:
+  - text: TIME OF SOWING IS FROM THE 4TH WEEK OF OCTOBER TO 4TH WEEK OF NOVEMBER.
+  utter_faq-category-2/sowing-time-for-early-sowing-varieties:
+  - text: LAST WEEK OF OCTOBER TO LAST WEEK OF NOVEMBER.
+  utter_faq-category-2/late-varieties-of-wheat:
+  - text: LATE SOWING VARIETES OF WHEAT ARE PBW 509,PBW 590,PBW 373
+  utter_faq-category-2/information-regarding-suitable-varieties-of-wheat--its-seed-rate:
+  - text: SUITABLE VARIETIES OF WHEAT IS -PBW-550,HD-2967 & HD-2851 & ITS SEED RATE-40KG.
+  utter_faq-category-2/information-about-suitable-varieties-for-running-season:
+  - text: SUITABLE VARIETIES FOR RUNNING SEASON IS - PBW-550,HD-2967 & HD-2851.
+  utter_faq-category-2/sowing-time-of-wheat-after-nov:
+  - text: 4TH WEEK OF NOVEMBER TO 4TH WEEK OF DECEMBER.
+  utter_faq-category-2/sowing-time-of-late-varieties-of-wheat-in-sandy-soils:
+  - text: After 15 November
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_faq-category-1/information-regarding-the-control-of-weeds-from-the-vacant-field-before-sowing-of-wheat:
+  - text: For pre-emergence control of weeds in wheat spray 1.5 liters of Stomp 30
+      EC (Pendamethalin) or 60 gram Awkira 85 WG(Pyroxasulfone) or 1 liter of Platform
+      38.5 SE(Pendimethalin 35%+Metribuzin 3.5%) in 200 liters of water per acre within
+      2 days of sowing of wheat.
+  utter_faq-category-1/information-regarding-control-of-weeds-in-pre-emergence-stage-in-wheat:
+  - text: "Pre \u2013 emergent herbicide Pendimethalin 8 - 8.5 mL/L of water in 160-\
+      \ 180 litres of water for one acre of wheat crop at 0-3 days after sowing. Pendimethalin\
+      \ controls both grasses and broadleaved weeds on wheat eco system."
+  utter_faq-category-1/information-regarding-the-control-of-grassy-leaf-weeds-in-wheat-after-first-irrigation:
+  - text: "Syngenta - TOPIK \u2013 [clodinafop-propargyl ] at 0.75 \u2013 1 gm/L of\
+      \ water [or 160 gm per acre ] in160- 180 litres of water for one acre of wheat\
+      \ crop. Whip Super \u2013 [Fenoxaprop-p-ethyl 9.3 %] 100 mL per acre in 160-\
+      \ 180 litres of water for one acre of wheat crop."
+  utter_faq-category-1/information-regarding-the-control-of-grassy-leaf-weeds-in-wheat-before-first-irrigation:
+  - text: For control of grassy leaf weeds in wheat spray Isoprotouron 75 WP (300
+      gram for light soils, 400 gram in medium soils and 500 gram in heavy soils)
+      or 13 gram Leader/SF-10/Safal/Marksulfo 75 WG (Sulfosulfuron) in 150 liters
+      of water per acre before 2-3 days of first irrigation.
+  utter_faq-category-1/how-to-control-of-broad-leaf-weed-in-wheat-crop:
+  - text: For control of broad leaf weeds in wheat spray 250 gram 2,4-D Sodium salt
+      80 WP or 250 ml 2,4-D ethyl ester 38 EC or 10 gram Algrip/Algrip Royal/Markgrip/Makoto
+      (Metsulfuron 20 WP) or 20 gram Aim/Affinity (Carfentrazone-ethyl 40 DF) or 20
+      gram Lanfida (Metsulfuron+Carfentrazone 50 DF in 150 liters of water per acre
+      after first irrigation within 30-35 days of sowing of crop.Don't spray any of
+      above herbicides if any broad leaf crop is sown with wheat.
+  - text: For control of broad leaf weeds in wheat spray 250 g of 2,4 D sodium salt(80%)
+      or 250 ml of 2,4 D ethyl ester (38%), Algrip 20WP 10g, Aim/Affinity 40DF 20g,
+      Lanfida 50DF 20G in 150-200lt water per acre.
+  utter_faq-category-1/how-to-control-phalaris-minor-in-wheat-crop:
+  - text: Spray clodinaphos 15 WP(Topik/rakashak plus )@160 gram or phenoxadin 5 EC
+      (Axil) @400 mililiter or phenoxaprop-p-ethyl 10 EC (puma power) @400 mililiter
+      or salphoslfuran 75 WG (leader/s.f.10) @13 gram dissolve in 200 liter water
+      per acre after 30 -35 days after sowing .
+  - text: FOR THE CONTROL OF GULLI DANDA(PHALARIS MINOR) IN WHEAT CROP,PLS APPLY 160GM
+      CLODINAFOP 15% WP(TOPIK)OR 400ML PINOXADEN 5% EC(AXIAL) MIXED WITH 150LITRE
+      OF WATER/ACRE.
+  utter_faq-category-1/information-regarding-for-the-control-of-herbs-in-wheat-crop:
+  - text: FOR THE CONTROL OF HERBS IN WHEAT CROP,SPRAY 160GM TOPIK+20GM AFFINITY/ACRE.
+  utter_faq-category-1/information-regarding-control-of-narrow-leaf-weeds:
+  - text: SPRAY 160HGM TOPIK IN 150LT WATER/ACRE.
+  - text: SPRAY 400ML AXIAL IN 150LT WATER/ACRE.
+  utter_faq-category-1/information-regarding-nozzle-used-in-herbicide-in-wheat-crop:
+  - text: Nozzle used in herbicide in wheat crop is Flat fan or Flood jet nozzle for
+      pre- emergence and only Flat fan for post- emergence.
+  utter_faq-category-1/information-regarding-control-of-weed-in-non-cropped-area:
+  - text: For control of weed in non cropped area or uncultivated area or free area
+      & The weeds in non-cropped areas like on farm, roads, waterchannels etc. can
+      be controlled by spray of Gramoxone 24 SL (paraquat dichloride) @ 0.25 to 0.5%
+      (250 to 500 ml in 100 litres of water).
+  utter_faq-category-1/information-regarding-post-emergence-weed-control-in-wheat:
+  - text: FOR CONTROL OF WEEDS IN WHEAT, SPRAY 160 GM TOPIK (CLODINAFOP) OR 13 GM
+      LEADER (SULFOSULFURON) OR 400 ML AXIAL (PINOXADEN) IN 100-120 LITRE WATER ER
+      ACRE.
+  utter_faq-category-1/information-regarding-control-of-weeds-in-post-emergence-before-1st-irrigation-stage-in-wheat:
+  - text: For control of weeds in Post-emergence (Before 1st irrigation) stage in
+      wheat spray Isoprotruron 75WP 300-400g or Leader 75WG (sulfosulfuron) 13g in
+      150 lt water per acre.
+  utter_faq-category-1/information-regarding-control-of-weeds-in-post-emergence-after-1st-irrigation-stage-in-wheat:
+  - text: For control of weeds in Post-emergence (After 1st irrigation) stage in wheat
+      spray Topik 15WP (clodinafop)160g ,Axial 5EC (pinoxaden) 400ml ,Puma Power 10EC
+      (fenoxaprop-p-ethyl) 400ml in 150lt water 30-35days.
+  utter_faq-category-1/how-to-control-wild-oat-in-wheat-crop:
+  - text: To control wild oats in wheat spray 400 ml. Axial (Pinoxaden 5EC) in 150
+      lt. of water per acre after 30-35 days after sowing.
+  - text: To control Jangli Javi in wheat spray 400 ml. Axial (Pinoxaden 5EC) or 160
+      gm. Topik or 13 gm. Leader in 150 lt. of water per acre after 30-35 days after
+      sowing.
+  utter_faq-category-1/information-regarding-how-to-control-mixed-weeds-in-wheat:
+  - text: SPRAY (ATLANTIS)3.6 WDG @ 160GM IN 150 LTR OF WATER /ACRE.
+  utter_faq-category-1/information-regarding-growth-regulator-used-in-wheat-crop-at-time-of-tellering-stage:
+  - text: Growth regulator used in wheat crop at time of tellering stage spray N:P:K
+      19:19:19 1kg in 120lt water per acre.
+  utter_faq-category-1/kandiali-palak-in-wheat:
+  - text: spray algrip 10 gram in 150 lites of water per acre
+  utter_faq-category-1/how-to-control-medicago-denticulata-in-wheat-crop:
+  - text: spray allgrip 10g in 100liters water per acre.
+  utter_faq-category-1/information-regaridng-dose-of-topik-in-an-acre:
+  - text: 160GM IN 100LT WATER/ACRE.
+  utter_faq-category-1/information-regarding-control-of-nematodes-affected-plant-in-wheat:
+  - text: CONTROL OF NEMATODES AFFECTED PLANT IN WHEAT - APPLY 4KG FURADAN PER ACRE
+      .
+  utter_faq-category-1/information-regarding-the-salt-of-sagun-21-11:
+  - text: SALT OF SAGUN 21-11 IS KLOCINAFOP AND METRIBUZJIN
+  utter_faq-category-1/information-regarding-to-control-of-bathu-in-the-wheat-crop:
+  - text: Spray Algrip/Algrip Royal/Markgrip/ Makoto 20 WP (metsulfuron*) 10 g in
+      150 l water or Aim/Affinity 40 DF (carfentrazone-ethyl*) 20 g in 200 l water
+  utter_faq-category-1/information-regarding-glyphosate-41%SL:
+  - text: glyphosate 41 %SL USE FOR WEED CONTROL
+  utter_faq-category-1/how-to-control-trigoneela-polycerata-in-wheat-crop:
+  - text: spray affinity 40df @ 20g in 200 liters watr per acre.
+  utter_faq-category-1/how-to-control-melilotus-indica-in-wheat-crop:
+  - text: spray allgrip 10g in 100 liters water per acre.
+  utter_faq-category-1/information-regarding-irrigate-the-field-after-herbicide-spray:
+  - text: field should irrigate after 7-8 days after herbicide spray in wheat crop.
+  utter_faq-category-1/how-to-control-malva-neglecta-in-wheat-crop:
+  - text: spray aim 40df @ 20g in 200 liters water per acre.
+actions:
+- action_agri_faq
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
