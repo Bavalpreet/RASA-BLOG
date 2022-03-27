@@ -2,7 +2,7 @@ import os
 import glob
 import hiyapyco
 
-path = '/home/lovepreet/Documents/Tatras Projects/blog-fallback-policy/domain-grp'
+path = '/home/lovepreet/Documents/Tatras Projects/blogs/RASA-BLOG/blog-fallback-policy/domain-grp'
 yaml_list = []
 
 for filename in glob.glob(os.path.join(path, '*.yml')):
@@ -13,5 +13,5 @@ for filename in glob.glob(os.path.join(path, '*.yml')):
 merged_yaml = hiyapyco.load(yaml_list, method=hiyapyco.METHOD_MERGE)
 print(hiyapyco.dump(merged_yaml))
 
-domain_yml_file = open("/home/lovepreet/Documents/Tatras Projects/blog-fallback-policy/domain.yml","w+")
+domain_yml_file = open("/home/lovepreet/Documents/Tatras Projects/blogs/RASA-BLOG/blog-fallback-policy/domain.yml","w+")
 domain_yml_file.writelines(hiyapyco.dump(merged_yaml))
