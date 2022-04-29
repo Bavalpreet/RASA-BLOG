@@ -1,2 +1,4 @@
 blog-fallback-policy/.rasa/
 blog-fallback-policy/models
+custom_component/.rasa/
+custom_component/models/
