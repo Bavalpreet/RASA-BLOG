@@ -16,6 +16,7 @@ In this blog post, we explore the process of creating a custom NLU (Natural Lang
 ## Repository Structure
 
 sabudh-blogs/
+```
 │
 ├── Fallback_Policy_in_RASA/
 │   ├── README.md
@@ -44,3 +45,4 @@ sabudh-blogs/
 │       └── custom_nlu_component.png
 │
 └── LICENSE
+```
