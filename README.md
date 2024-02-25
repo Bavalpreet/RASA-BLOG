@@ -2,8 +2,14 @@
 
 Welcome to the Sabudh Blogs repository! This repository contains code examples and resources used in the blogs published on [Sabudh's website](https://sabudh.org/sabudh-blogs/). Below is a list of blogs available in this repository:
 
-1. [Fallback Policy in RASA](./Fallback_Policy_in_RASA/README.md)
-2. [Custom NLU Component in Rasa 3.x](./Custom_NLU_Component_in_Rasa_3.x/README.md)
+1. [Fallback Policy in RASA](./blog-fallback-policy/README.md)
+2. [Custom NLU Component in Rasa 3.x](./custom_component/README.md)
+
+## Blogs
+
+- [Fallback Policy in RASA](https://sabudh.org/fallback-policy-in-rasa/)
+- [Custom NLU Component in RASA 3.x](https://sabudh.org/custom-nlu-component-in-rasa-3-x/)
+
 
 ## Blog Descriptions
 
